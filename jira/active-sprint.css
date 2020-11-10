@@ -1,0 +1,55 @@
+#ghx-column-header-group {
+    position: relative !important;
+}
+.ghx-rapid-views #gh #ghx-work #ghx-pool-column #ghx-column-headers,
+.ghx-rapid-views #gh #ghx-work #ghx-pool-column .ghx-zone-overlay-table {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 300px;
+}
+.ghx-subtask-group .ghx-key, .ghx-subtask-group .ghx-type, .ghx-subtask-group .ghx-flags, .ghx-subtask-group .ghx-end, .ghx-subtask-group .ghx-days {
+    display: none;
+}
+.ghx-subtask-group .ghx-card-footer {
+    margin: 0;
+    padding: 0;
+}
+.ghx-subtask-group .ghx-issue {
+    margin: 4px;
+    padding: 2px 2px 2px 6px;
+}
+.ghx-subtask-group .ghx-issue-content {
+    min-height: 50px;
+}
+.ghx-rapid-views #gh #ghx-work #ghx-pool-column .ghx-swimlane {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+.ghx-swimlane-header {
+    overflow: visible;
+    background: #f4f5f7;
+    border-right: 5px solid white;
+}
+.ghx-swimlane-header .ghx-summary {
+    margin-left: 10px;
+}
+.ghx-swimlane-header .ghx-info {
+    display: none;
+}
+.ghx-swimlane-header .ghx-heading {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.ghx-swimlane-header .ghx-bandaid {
+    position: relative;
+}
+.ghx-swimlane-header .ghx-bandaid, .ghx-swimlane-header.ghx-selected .ghx-bandaid, .ghx-swimlane-header:after, .ghx-swimlane-header.ghx-selected:after {
+    background: none;
+    box-shadow: none;
+}
+.ghx-swimlane {
+    border-top: 4px solid white;
+}
+.ghx-auto-avatar {
+    display: none;
+}
